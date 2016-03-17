@@ -40,7 +40,10 @@ public class RegisterActivity extends AppCompatActivity {
         } else {
 
             //No Space
-
+            MyManage myManage = new MyManage(this);
+            myManage.addUser(strName, strSurname, strUser, strPassword);
+            myAlert("บันทึกข้อมูล คุณ" + strName + " เรียบร้อยแล้วคะ");
+            finish();
         }
 
     }   // clickRegister
