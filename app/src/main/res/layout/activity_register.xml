@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:text="@string/regis"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:onClick="clickRegister" />
 
     <LinearLayout
         android:orientation="vertical"
